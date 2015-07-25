@@ -1,0 +1,686 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '-g',
+1 verbose cli   'hubot',
+1 verbose cli   'coffee-script',
+1 verbose cli   'yo',
+1 verbose cli   'generator-hubot' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.39
+4 verbose cache add [ 'hubot', null ]
+5 verbose cache add name=undefined spec="hubot" args=["hubot",null]
+6 verbose parsed url { protocol: null,
+6 verbose parsed url   slashes: null,
+6 verbose parsed url   auth: null,
+6 verbose parsed url   host: null,
+6 verbose parsed url   port: null,
+6 verbose parsed url   hostname: null,
+6 verbose parsed url   hash: null,
+6 verbose parsed url   search: null,
+6 verbose parsed url   query: null,
+6 verbose parsed url   pathname: 'hubot',
+6 verbose parsed url   path: 'hubot',
+6 verbose parsed url   href: 'hubot' }
+7 verbose cache add [ 'coffee-script', null ]
+8 verbose cache add name=undefined spec="coffee-script" args=["coffee-script",null]
+9 verbose parsed url { protocol: null,
+9 verbose parsed url   slashes: null,
+9 verbose parsed url   auth: null,
+9 verbose parsed url   host: null,
+9 verbose parsed url   port: null,
+9 verbose parsed url   hostname: null,
+9 verbose parsed url   hash: null,
+9 verbose parsed url   search: null,
+9 verbose parsed url   query: null,
+9 verbose parsed url   pathname: 'coffee-script',
+9 verbose parsed url   path: 'coffee-script',
+9 verbose parsed url   href: 'coffee-script' }
+10 verbose cache add [ 'yo', null ]
+11 verbose cache add name=undefined spec="yo" args=["yo",null]
+12 verbose parsed url { protocol: null,
+12 verbose parsed url   slashes: null,
+12 verbose parsed url   auth: null,
+12 verbose parsed url   host: null,
+12 verbose parsed url   port: null,
+12 verbose parsed url   hostname: null,
+12 verbose parsed url   hash: null,
+12 verbose parsed url   search: null,
+12 verbose parsed url   query: null,
+12 verbose parsed url   pathname: 'yo',
+12 verbose parsed url   path: 'yo',
+12 verbose parsed url   href: 'yo' }
+13 verbose cache add [ 'generator-hubot', null ]
+14 verbose cache add name=undefined spec="generator-hubot" args=["generator-hubot",null]
+15 verbose parsed url { protocol: null,
+15 verbose parsed url   slashes: null,
+15 verbose parsed url   auth: null,
+15 verbose parsed url   host: null,
+15 verbose parsed url   port: null,
+15 verbose parsed url   hostname: null,
+15 verbose parsed url   hash: null,
+15 verbose parsed url   search: null,
+15 verbose parsed url   query: null,
+15 verbose parsed url   pathname: 'generator-hubot',
+15 verbose parsed url   path: 'generator-hubot',
+15 verbose parsed url   href: 'generator-hubot' }
+16 silly lockFile e868925b-hubot hubot
+17 verbose lock hubot /Users/drew/.npm/e868925b-hubot.lock
+18 silly lockFile ab358269-coffee-script coffee-script
+19 verbose lock coffee-script /Users/drew/.npm/ab358269-coffee-script.lock
+20 silly lockFile c41975d1-yo yo
+21 verbose lock yo /Users/drew/.npm/c41975d1-yo.lock
+22 silly lockFile a99f4c03-generator-hubot generator-hubot
+23 verbose lock generator-hubot /Users/drew/.npm/a99f4c03-generator-hubot.lock
+24 silly lockFile e868925b-hubot hubot
+25 silly lockFile e868925b-hubot hubot
+26 silly lockFile ab358269-coffee-script coffee-script
+27 silly lockFile ab358269-coffee-script coffee-script
+28 verbose addNamed [ 'hubot', '' ]
+29 verbose addNamed [ null, '*' ]
+30 silly lockFile 8fa1a24a-hubot hubot@
+31 verbose lock hubot@ /Users/drew/.npm/8fa1a24a-hubot.lock
+32 silly lockFile c41975d1-yo yo
+33 silly lockFile c41975d1-yo yo
+34 verbose addNamed [ 'coffee-script', '' ]
+35 verbose addNamed [ null, '*' ]
+36 silly lockFile 53951495-coffee-script coffee-script@
+37 verbose lock coffee-script@ /Users/drew/.npm/53951495-coffee-script.lock
+38 silly lockFile a99f4c03-generator-hubot generator-hubot
+39 silly lockFile a99f4c03-generator-hubot generator-hubot
+40 verbose addNamed [ 'yo', '' ]
+41 verbose addNamed [ null, '*' ]
+42 silly lockFile d937c28e-yo yo@
+43 verbose lock yo@ /Users/drew/.npm/d937c28e-yo.lock
+44 silly addNameRange { name: 'hubot', range: '*', hasData: false }
+45 verbose addNamed [ 'generator-hubot', '' ]
+46 verbose addNamed [ null, '*' ]
+47 silly lockFile c9293273-generator-hubot generator-hubot@
+48 verbose lock generator-hubot@ /Users/drew/.npm/c9293273-generator-hubot.lock
+49 silly addNameRange { name: 'coffee-script', range: '*', hasData: false }
+50 silly addNameRange { name: 'yo', range: '*', hasData: false }
+51 verbose request where is /yo
+52 verbose request registry https://registry.npmjs.org/
+53 verbose request id 6d8d5dc335373a80
+54 verbose url raw /yo
+55 verbose url resolving [ 'https://registry.npmjs.org/', './yo' ]
+56 verbose url resolved https://registry.npmjs.org/yo
+57 verbose request where is https://registry.npmjs.org/yo
+58 info trying registry request attempt 1 at 23:14:13
+59 http GET https://registry.npmjs.org/yo
+60 silly addNameRange { name: 'generator-hubot', range: '*', hasData: false }
+61 verbose request where is /generator-hubot
+62 verbose request registry https://registry.npmjs.org/
+63 verbose url raw /generator-hubot
+64 verbose url resolving [ 'https://registry.npmjs.org/', './generator-hubot' ]
+65 verbose url resolved https://registry.npmjs.org/generator-hubot
+66 verbose request where is https://registry.npmjs.org/generator-hubot
+67 info trying registry request attempt 1 at 23:14:13
+68 http GET https://registry.npmjs.org/generator-hubot
+69 verbose request where is /hubot
+70 verbose request registry https://registry.npmjs.org/
+71 verbose url raw /hubot
+72 verbose url resolving [ 'https://registry.npmjs.org/', './hubot' ]
+73 verbose url resolved https://registry.npmjs.org/hubot
+74 verbose request where is https://registry.npmjs.org/hubot
+75 info trying registry request attempt 1 at 23:14:13
+76 verbose etag "8ZE3E9PZNLO9YN53G6EGOTFQY"
+77 http GET https://registry.npmjs.org/hubot
+78 verbose request where is /coffee-script
+79 verbose request registry https://registry.npmjs.org/
+80 verbose url raw /coffee-script
+81 verbose url resolving [ 'https://registry.npmjs.org/', './coffee-script' ]
+82 verbose url resolved https://registry.npmjs.org/coffee-script
+83 verbose request where is https://registry.npmjs.org/coffee-script
+84 info trying registry request attempt 1 at 23:14:13
+85 verbose etag "64ZSRO1CU4DGLT22AC1V3WR1Y"
+86 http GET https://registry.npmjs.org/coffee-script
+87 http 200 https://registry.npmjs.org/coffee-script
+88 silly registry.get cb [ 200,
+88 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+88 silly registry.get     etag: '"2P13SEI0OUEETOV3QTUNRN3A4"',
+88 silly registry.get     'content-type': 'application/json',
+88 silly registry.get     'cache-control': 'max-age=60',
+88 silly registry.get     'content-length': '39196',
+88 silly registry.get     'accept-ranges': 'bytes',
+88 silly registry.get     date: 'Sat, 25 Jul 2015 04:14:13 GMT',
+88 silly registry.get     via: '1.1 varnish',
+88 silly registry.get     age: '25',
+88 silly registry.get     connection: 'keep-alive',
+88 silly registry.get     'x-served-by': 'cache-ord1727-ORD',
+88 silly registry.get     'x-cache': 'HIT',
+88 silly registry.get     'x-cache-hits': '1',
+88 silly registry.get     'x-timer': 'S1437797653.486691,VS0,VE0',
+88 silly registry.get     vary: 'Accept' } ]
+89 silly addNameRange number 2 { name: 'coffee-script', range: '*', hasData: true }
+90 silly addNameRange versions [ 'coffee-script',
+90 silly addNameRange   [ '0.7.0',
+90 silly addNameRange     '0.7.1',
+90 silly addNameRange     '0.7.2',
+90 silly addNameRange     '0.9.0',
+90 silly addNameRange     '0.9.1',
+90 silly addNameRange     '0.9.2',
+90 silly addNameRange     '0.9.3',
+90 silly addNameRange     '0.9.4',
+90 silly addNameRange     '0.9.5',
+90 silly addNameRange     '0.9.6',
+90 silly addNameRange     '1.0.0',
+90 silly addNameRange     '1.0.1',
+90 silly addNameRange     '1.1.0',
+90 silly addNameRange     '1.1.1',
+90 silly addNameRange     '1.1.2',
+90 silly addNameRange     '1.1.3',
+90 silly addNameRange     '1.2.0',
+90 silly addNameRange     '1.3.0',
+90 silly addNameRange     '1.3.1',
+90 silly addNameRange     '1.3.2',
+90 silly addNameRange     '1.3.3',
+90 silly addNameRange     '1.4.0',
+90 silly addNameRange     '1.5.0',
+90 silly addNameRange     '1.6.0',
+90 silly addNameRange     '1.6.1',
+90 silly addNameRange     '1.6.2',
+90 silly addNameRange     '1.6.3',
+90 silly addNameRange     '1.7.0',
+90 silly addNameRange     '1.7.1',
+90 silly addNameRange     '1.8.0',
+90 silly addNameRange     '1.9.0',
+90 silly addNameRange     '1.9.1',
+90 silly addNameRange     '1.9.2',
+90 silly addNameRange     '1.9.3' ] ]
+91 verbose addNamed [ 'coffee-script', '1.9.3' ]
+92 verbose addNamed [ '1.9.3', '1.9.3' ]
+93 silly lockFile 81d6d09f-coffee-script-1-9-3 coffee-script@1.9.3
+94 verbose lock coffee-script@1.9.3 /Users/drew/.npm/81d6d09f-coffee-script-1-9-3.lock
+95 silly lockFile c84ebf16-e-script-coffee-script-1-9-3-tgz https://registry.npmjs.org/coffee-script/-/coffee-script-1.9.3.tgz
+96 verbose lock https://registry.npmjs.org/coffee-script/-/coffee-script-1.9.3.tgz /Users/drew/.npm/c84ebf16-e-script-coffee-script-1-9-3-tgz.lock
+97 verbose addRemoteTarball [ 'https://registry.npmjs.org/coffee-script/-/coffee-script-1.9.3.tgz',
+97 verbose addRemoteTarball   '596e6e83fcfcb67c5964ab70d444beff0ac04ac7' ]
+98 info retry fetch attempt 1 at 23:14:13
+99 verbose fetch to= /var/folders/hm/5j3zy9s93yj19vy5_3_gck8r0000gn/T/npm-20696-tWAo7vmD/registry.npmjs.org/coffee-script/-/coffee-script-1.9.3.tgz
+100 http GET https://registry.npmjs.org/coffee-script/-/coffee-script-1.9.3.tgz
+101 http 200 https://registry.npmjs.org/generator-hubot
+102 silly registry.get cb [ 200,
+102 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+102 silly registry.get     etag: '"5S5ITU9USGRTSVGTRM7OCJ8G0"',
+102 silly registry.get     'content-type': 'application/json',
+102 silly registry.get     'cache-control': 'max-age=60',
+102 silly registry.get     'content-length': '19369',
+102 silly registry.get     'accept-ranges': 'bytes',
+102 silly registry.get     date: 'Sat, 25 Jul 2015 04:14:13 GMT',
+102 silly registry.get     via: '1.1 varnish',
+102 silly registry.get     age: '0',
+102 silly registry.get     connection: 'keep-alive',
+102 silly registry.get     'x-served-by': 'cache-ord1725-ORD',
+102 silly registry.get     'x-cache': 'MISS',
+102 silly registry.get     'x-cache-hits': '0',
+102 silly registry.get     'x-timer': 'S1437797653.486984,VS0,VE70',
+102 silly registry.get     vary: 'Accept' } ]
+103 silly addNameRange number 2 { name: 'generator-hubot', range: '*', hasData: true }
+104 silly addNameRange versions [ 'generator-hubot',
+104 silly addNameRange   [ '0.1.0',
+104 silly addNameRange     '0.1.1',
+104 silly addNameRange     '0.1.2',
+104 silly addNameRange     '0.1.3',
+104 silly addNameRange     '0.1.4',
+104 silly addNameRange     '0.2.0',
+104 silly addNameRange     '0.2.1',
+104 silly addNameRange     '0.2.2',
+104 silly addNameRange     '0.2.3',
+104 silly addNameRange     '0.2.4',
+104 silly addNameRange     '0.2.5',
+104 silly addNameRange     '0.3.0',
+104 silly addNameRange     '0.3.1' ] ]
+105 verbose addNamed [ 'generator-hubot', '0.3.1' ]
+106 verbose addNamed [ '0.3.1', '0.3.1' ]
+107 silly lockFile 9f61b22c-generator-hubot-0-3-1 generator-hubot@0.3.1
+108 verbose lock generator-hubot@0.3.1 /Users/drew/.npm/9f61b22c-generator-hubot-0-3-1.lock
+109 silly lockFile 10eca37f--hubot-generator-hubot-0-3-1-tgz https://registry.npmjs.org/generator-hubot/-/generator-hubot-0.3.1.tgz
+110 verbose lock https://registry.npmjs.org/generator-hubot/-/generator-hubot-0.3.1.tgz /Users/drew/.npm/10eca37f--hubot-generator-hubot-0-3-1-tgz.lock
+111 verbose addRemoteTarball [ 'https://registry.npmjs.org/generator-hubot/-/generator-hubot-0.3.1.tgz',
+111 verbose addRemoteTarball   'f455ea03de91f8a284c005682aac9352609aa409' ]
+112 info retry fetch attempt 1 at 23:14:13
+113 verbose fetch to= /var/folders/hm/5j3zy9s93yj19vy5_3_gck8r0000gn/T/npm-20696-tWAo7vmD/registry.npmjs.org/generator-hubot/-/generator-hubot-0.3.1.tgz
+114 http GET https://registry.npmjs.org/generator-hubot/-/generator-hubot-0.3.1.tgz
+115 http 200 https://registry.npmjs.org/coffee-script/-/coffee-script-1.9.3.tgz
+116 http 200 https://registry.npmjs.org/generator-hubot/-/generator-hubot-0.3.1.tgz
+117 silly lockFile 10eca37f--hubot-generator-hubot-0-3-1-tgz https://registry.npmjs.org/generator-hubot/-/generator-hubot-0.3.1.tgz
+118 silly lockFile 10eca37f--hubot-generator-hubot-0-3-1-tgz https://registry.npmjs.org/generator-hubot/-/generator-hubot-0.3.1.tgz
+119 silly lockFile 9f61b22c-generator-hubot-0-3-1 generator-hubot@0.3.1
+120 silly lockFile 9f61b22c-generator-hubot-0-3-1 generator-hubot@0.3.1
+121 silly lockFile c9293273-generator-hubot generator-hubot@
+122 silly lockFile c9293273-generator-hubot generator-hubot@
+123 silly lockFile c84ebf16-e-script-coffee-script-1-9-3-tgz https://registry.npmjs.org/coffee-script/-/coffee-script-1.9.3.tgz
+124 silly lockFile c84ebf16-e-script-coffee-script-1-9-3-tgz https://registry.npmjs.org/coffee-script/-/coffee-script-1.9.3.tgz
+125 silly lockFile 81d6d09f-coffee-script-1-9-3 coffee-script@1.9.3
+126 silly lockFile 81d6d09f-coffee-script-1-9-3 coffee-script@1.9.3
+127 silly lockFile 53951495-coffee-script coffee-script@
+128 silly lockFile 53951495-coffee-script coffee-script@
+129 http 200 https://registry.npmjs.org/yo
+130 silly registry.get cb [ 200,
+130 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+130 silly registry.get     etag: '"DJZP6CWA4PQ0BU5CKNIMIYP27"',
+130 silly registry.get     'content-type': 'application/json',
+130 silly registry.get     'cache-control': 'max-age=60',
+130 silly registry.get     'content-length': '33814',
+130 silly registry.get     'accept-ranges': 'bytes',
+130 silly registry.get     date: 'Sat, 25 Jul 2015 04:14:13 GMT',
+130 silly registry.get     via: '1.1 varnish',
+130 silly registry.get     age: '0',
+130 silly registry.get     connection: 'keep-alive',
+130 silly registry.get     'x-served-by': 'cache-ord1729-ORD',
+130 silly registry.get     'x-cache': 'HIT',
+130 silly registry.get     'x-cache-hits': '1',
+130 silly registry.get     'x-timer': 'S1437797653.486073,VS0,VE254',
+130 silly registry.get     vary: 'Accept' } ]
+131 silly addNameRange number 2 { name: 'yo', range: '*', hasData: true }
+132 silly addNameRange versions [ 'yo',
+132 silly addNameRange   [ '1.1.0',
+132 silly addNameRange     '1.1.1',
+132 silly addNameRange     '1.1.2',
+132 silly addNameRange     '1.2.0',
+132 silly addNameRange     '1.2.1',
+132 silly addNameRange     '1.3.0',
+132 silly addNameRange     '1.3.2',
+132 silly addNameRange     '1.3.3',
+132 silly addNameRange     '1.4.6',
+132 silly addNameRange     '1.4.7' ] ]
+133 verbose addNamed [ 'yo', '1.4.7' ]
+134 verbose addNamed [ '1.4.7', '1.4.7' ]
+135 silly lockFile 22bae6b4-yo-1-4-7 yo@1.4.7
+136 verbose lock yo@1.4.7 /Users/drew/.npm/22bae6b4-yo-1-4-7.lock
+137 silly lockFile ef4e4e38-gistry-npmjs-org-yo-yo-1-4-7-tgz https://registry.npmjs.org/yo/-/yo-1.4.7.tgz
+138 verbose lock https://registry.npmjs.org/yo/-/yo-1.4.7.tgz /Users/drew/.npm/ef4e4e38-gistry-npmjs-org-yo-yo-1-4-7-tgz.lock
+139 verbose addRemoteTarball [ 'https://registry.npmjs.org/yo/-/yo-1.4.7.tgz',
+139 verbose addRemoteTarball   '7eecb354f6f4df2dafbc2da53d30f7f7fafcb450' ]
+140 info retry fetch attempt 1 at 23:14:13
+141 verbose fetch to= /var/folders/hm/5j3zy9s93yj19vy5_3_gck8r0000gn/T/npm-20696-tWAo7vmD/registry.npmjs.org/yo/-/yo-1.4.7.tgz
+142 http GET https://registry.npmjs.org/yo/-/yo-1.4.7.tgz
+143 http 200 https://registry.npmjs.org/hubot
+144 silly registry.get cb [ 200,
+144 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+144 silly registry.get     etag: '"1NT1KSU9WN4UJ17TSU8VZPBTU"',
+144 silly registry.get     'content-type': 'application/json',
+144 silly registry.get     'cache-control': 'max-age=60',
+144 silly registry.get     'content-length': '89509',
+144 silly registry.get     'accept-ranges': 'bytes',
+144 silly registry.get     date: 'Sat, 25 Jul 2015 04:14:13 GMT',
+144 silly registry.get     via: '1.1 varnish',
+144 silly registry.get     age: '0',
+144 silly registry.get     connection: 'keep-alive',
+144 silly registry.get     'x-served-by': 'cache-ord1733-ORD',
+144 silly registry.get     'x-cache': 'MISS',
+144 silly registry.get     'x-cache-hits': '0',
+144 silly registry.get     'x-timer': 'S1437797653.485525,VS0,VE255',
+144 silly registry.get     vary: 'Accept' } ]
+145 silly addNameRange number 2 { name: 'hubot', range: '*', hasData: true }
+146 silly addNameRange versions [ 'hubot',
+146 silly addNameRange   [ '1.0.0',
+146 silly addNameRange     '1.0.2',
+146 silly addNameRange     '1.0.3',
+146 silly addNameRange     '1.0.4',
+146 silly addNameRange     '1.0.5',
+146 silly addNameRange     '1.0.6',
+146 silly addNameRange     '1.1.0',
+146 silly addNameRange     '1.1.1',
+146 silly addNameRange     '1.1.2',
+146 silly addNameRange     '1.1.3',
+146 silly addNameRange     '1.1.4',
+146 silly addNameRange     '1.1.5',
+146 silly addNameRange     '1.1.6',
+146 silly addNameRange     '1.1.7',
+146 silly addNameRange     '1.1.8',
+146 silly addNameRange     '1.1.9',
+146 silly addNameRange     '1.1.10',
+146 silly addNameRange     '1.1.11',
+146 silly addNameRange     '2.0.2',
+146 silly addNameRange     '2.0.4',
+146 silly addNameRange     '2.0.5',
+146 silly addNameRange     '2.0.6',
+146 silly addNameRange     '2.0.7',
+146 silly addNameRange     '2.1.0',
+146 silly addNameRange     '2.1.1',
+146 silly addNameRange     '2.1.2',
+146 silly addNameRange     '2.1.3',
+146 silly addNameRange     '2.1.4',
+146 silly addNameRange     '2.2.0',
+146 silly addNameRange     '2.2.1',
+146 silly addNameRange     '2.3.0',
+146 silly addNameRange     '2.3.2',
+146 silly addNameRange     '2.3.3',
+146 silly addNameRange     '2.3.4',
+146 silly addNameRange     '2.3.5',
+146 silly addNameRange     '2.4.0',
+146 silly addNameRange     '2.4.1',
+146 silly addNameRange     '2.4.2',
+146 silly addNameRange     '2.4.4',
+146 silly addNameRange     '2.4.5',
+146 silly addNameRange     '2.4.6',
+146 silly addNameRange     '2.4.7',
+146 silly addNameRange     '2.4.8',
+146 silly addNameRange     '2.5.0',
+146 silly addNameRange     '2.5.1',
+146 silly addNameRange     '2.5.2',
+146 silly addNameRange     '2.5.3',
+146 silly addNameRange     '2.5.4',
+146 silly addNameRange     '2.5.5',
+146 silly addNameRange     '2.6.0',
+146 silly addNameRange     '2.6.1',
+146 silly addNameRange     '2.6.2',
+146 silly addNameRange     '2.6.3',
+146 silly addNameRange     '2.6.4',
+146 silly addNameRange     '2.6.5',
+146 silly addNameRange     '2.7.0',
+146 silly addNameRange     '2.7.1',
+146 silly addNameRange     '2.7.2',
+146 silly addNameRange     '2.7.3',
+146 silly addNameRange     '2.7.4',
+146 silly addNameRange     '2.7.5',
+146 silly addNameRange     '2.8.0',
+146 silly addNameRange     '2.8.1',
+146 silly addNameRange     '2.8.2-beta1',
+146 silly addNameRange     '2.8.2',
+146 silly addNameRange     '2.8.3-beta',
+146 silly addNameRange     '2.8.3',
+146 silly addNameRange     '2.9.0',
+146 silly addNameRange     '2.9.3',
+146 silly addNameRange     '2.10.0',
+146 silly addNameRange     '2.11.0',
+146 silly addNameRange     '2.11.1',
+146 silly addNameRange     '2.11.2',
+146 silly addNameRange     '2.11.3',
+146 silly addNameRange     '2.11.4',
+146 silly addNameRange     '2.12.0',
+146 silly addNameRange     '2.13.0',
+146 silly addNameRange     '2.13.1',
+146 silly addNameRange     '2.13.2',
+146 silly addNameRange     '2.14.0-beta1' ] ]
+147 verbose addNamed [ 'hubot', '2.13.2' ]
+148 verbose addNamed [ '2.13.2', '2.13.2' ]
+149 silly lockFile fb5c41c0-hubot-2-13-2 hubot@2.13.2
+150 verbose lock hubot@2.13.2 /Users/drew/.npm/fb5c41c0-hubot-2-13-2.lock
+151 silly lockFile fb5c41c0-hubot-2-13-2 hubot@2.13.2
+152 silly lockFile fb5c41c0-hubot-2-13-2 hubot@2.13.2
+153 silly lockFile 8fa1a24a-hubot hubot@
+154 silly lockFile 8fa1a24a-hubot hubot@
+155 http 200 https://registry.npmjs.org/yo/-/yo-1.4.7.tgz
+156 silly lockFile ef4e4e38-gistry-npmjs-org-yo-yo-1-4-7-tgz https://registry.npmjs.org/yo/-/yo-1.4.7.tgz
+157 silly lockFile ef4e4e38-gistry-npmjs-org-yo-yo-1-4-7-tgz https://registry.npmjs.org/yo/-/yo-1.4.7.tgz
+158 silly lockFile 22bae6b4-yo-1-4-7 yo@1.4.7
+159 silly lockFile 22bae6b4-yo-1-4-7 yo@1.4.7
+160 silly lockFile d937c28e-yo yo@
+161 silly lockFile d937c28e-yo yo@
+162 silly resolved [ { name: 'generator-hubot',
+162 silly resolved     version: '0.3.1',
+162 silly resolved     description: 'Hubot generator for Yeoman',
+162 silly resolved     license: 'MIT',
+162 silly resolved     main: 'generators/app/index.js',
+162 silly resolved     repository:
+162 silly resolved      { type: 'git',
+162 silly resolved        url: 'git+https://github.com/github/generator-hubot.git' },
+162 silly resolved     author:
+162 silly resolved      { name: 'Josh Nichols',
+162 silly resolved        email: 'josh@technicalpickles.com',
+162 silly resolved        url: 'https://github.com/technicalpickles' },
+162 silly resolved     engines: { node: '>=0.10.0' },
+162 silly resolved     scripts: { test: 'mocha' },
+162 silly resolved     files: [ 'generators' ],
+162 silly resolved     keywords: [ 'yeoman-generator', 'hubot', 'hubot-script' ],
+162 silly resolved     dependencies:
+162 silly resolved      { 'yeoman-generator': '^0.17.0',
+162 silly resolved        chalk: '^0.5.0',
+162 silly resolved        yosay: '^0.3.0',
+162 silly resolved        'npm-name': '^1.0.1' },
+162 silly resolved     devDependencies:
+162 silly resolved      { 'coffee-script': '^1.6.3',
+162 silly resolved        grunt: '~0.4.5',
+162 silly resolved        'grunt-contrib-watch': '^0.6.1',
+162 silly resolved        'grunt-mocha-test': '^0.12.4',
+162 silly resolved        'grunt-release': '~0.6.0',
+162 silly resolved        matchdep: '~0.1.2',
+162 silly resolved        mocha: '*' },
+162 silly resolved     peerDependencies: { yo: '>=1.0.0' },
+162 silly resolved     gitHead: '0f7e2b31bc6e9d68798bbacbef1e43477e3982ea',
+162 silly resolved     bugs: { url: 'https://github.com/github/generator-hubot/issues' },
+162 silly resolved     homepage: 'https://github.com/github/generator-hubot#readme',
+162 silly resolved     _id: 'generator-hubot@0.3.1',
+162 silly resolved     _shasum: 'f455ea03de91f8a284c005682aac9352609aa409',
+162 silly resolved     _from: 'generator-hubot@',
+162 silly resolved     _npmVersion: '2.10.1',
+162 silly resolved     _nodeVersion: '0.12.4',
+162 silly resolved     _npmUser: { name: 'technicalpickles', email: 'josh@technicalpickles.com' },
+162 silly resolved     maintainers: [ [Object], [Object], [Object], [Object] ],
+162 silly resolved     dist:
+162 silly resolved      { shasum: 'f455ea03de91f8a284c005682aac9352609aa409',
+162 silly resolved        tarball: 'http://registry.npmjs.org/generator-hubot/-/generator-hubot-0.3.1.tgz' },
+162 silly resolved     directories: {},
+162 silly resolved     _resolved: 'https://registry.npmjs.org/generator-hubot/-/generator-hubot-0.3.1.tgz' },
+162 silly resolved   { name: 'coffee-script',
+162 silly resolved     description: 'Unfancy JavaScript',
+162 silly resolved     keywords: [ 'javascript', 'language', 'coffeescript', 'compiler' ],
+162 silly resolved     author: { name: 'Jeremy Ashkenas' },
+162 silly resolved     version: '1.9.3',
+162 silly resolved     license: 'MIT',
+162 silly resolved     engines: { node: '>=0.8.0' },
+162 silly resolved     directories: { lib: './lib/coffee-script' },
+162 silly resolved     main: './lib/coffee-script/coffee-script',
+162 silly resolved     bin: { coffee: './bin/coffee', cake: './bin/cake' },
+162 silly resolved     preferGlobal: true,
+162 silly resolved     scripts:
+162 silly resolved      { test: 'node ./bin/cake test',
+162 silly resolved        'test-harmony': 'node --harmony ./bin/cake test' },
+162 silly resolved     homepage: 'http://coffeescript.org',
+162 silly resolved     bugs: { url: 'https://github.com/jashkenas/coffeescript/issues' },
+162 silly resolved     repository:
+162 silly resolved      { type: 'git',
+162 silly resolved        url: 'git://github.com/jashkenas/coffeescript.git' },
+162 silly resolved     devDependencies:
+162 silly resolved      { 'uglify-js': '~2.2',
+162 silly resolved        jison: '>=0.2.0',
+162 silly resolved        'highlight.js': '~8.0.0',
+162 silly resolved        underscore: '~1.5.2',
+162 silly resolved        docco: '~0.7.0' },
+162 silly resolved     gitHead: 'c37f284771e10b36239c714dcc40827510a6df5f',
+162 silly resolved     _id: 'coffee-script@1.9.3',
+162 silly resolved     _shasum: '596e6e83fcfcb67c5964ab70d444beff0ac04ac7',
+162 silly resolved     _from: 'coffee-script@',
+162 silly resolved     _npmVersion: '1.4.28',
+162 silly resolved     _npmUser: { name: 'jashkenas', email: 'jashkenas@gmail.com' },
+162 silly resolved     maintainers: [ [Object], [Object] ],
+162 silly resolved     dist:
+162 silly resolved      { shasum: '596e6e83fcfcb67c5964ab70d444beff0ac04ac7',
+162 silly resolved        tarball: 'http://registry.npmjs.org/coffee-script/-/coffee-script-1.9.3.tgz' },
+162 silly resolved     _resolved: 'https://registry.npmjs.org/coffee-script/-/coffee-script-1.9.3.tgz' },
+162 silly resolved   { name: 'hubot',
+162 silly resolved     version: '2.13.2',
+162 silly resolved     author: { name: 'hubot' },
+162 silly resolved     keywords: [ 'github', 'hubot', 'campfire', 'bot' ],
+162 silly resolved     description: 'A simple helpful robot for your Company',
+162 silly resolved     license: 'MIT',
+162 silly resolved     repository: { type: 'git', url: 'https://github.com/github/hubot.git' },
+162 silly resolved     dependencies:
+162 silly resolved      { chalk: '^1.0.0',
+162 silly resolved        cline: '^0.8.2',
+162 silly resolved        'coffee-script': '1.6.3',
+162 silly resolved        'connect-multiparty': '^1.2.5',
+162 silly resolved        express: '3.18.1',
+162 silly resolved        log: '1.4.0',
+162 silly resolved        optparse: '1.0.4',
+162 silly resolved        'scoped-http-client': '0.11.0' },
+162 silly resolved     devDependencies:
+162 silly resolved      { 'hubot-mock-adapter': '^1.0.0',
+162 silly resolved        mocha: '^2.1.0',
+162 silly resolved        mockery: '^1.4.0',
+162 silly resolved        'sinon-chai': '^2.6.0' },
+162 silly resolved     engines: { node: '>= 0.8.x', npm: '>= 1.1.x' },
+162 silly resolved     main: './index',
+162 silly resolved     bin: { hubot: './bin/hubot' },
+162 silly resolved     scripts: { test: './script/test' },
+162 silly resolved     gitHead: 'cf4dee572e737355092afdbcbb4894889033df8a',
+162 silly resolved     bugs: { url: 'https://github.com/github/hubot/issues' },
+162 silly resolved     homepage: 'https://github.com/github/hubot',
+162 silly resolved     _id: 'hubot@2.13.2',
+162 silly resolved     _shasum: '70e2ee9a85841a17e23f13ac65fc325d928565b0',
+162 silly resolved     _from: 'hubot@',
+162 silly resolved     _npmVersion: '2.5.1',
+162 silly resolved     _nodeVersion: '0.10.29',
+162 silly resolved     _npmUser: { name: 'michaelansel', email: 'npm@anselcomputers.com' },
+162 silly resolved     dist:
+162 silly resolved      { shasum: '70e2ee9a85841a17e23f13ac65fc325d928565b0',
+162 silly resolved        tarball: 'http://registry.npmjs.org/hubot/-/hubot-2.13.2.tgz' },
+162 silly resolved     maintainers: [ [Object], [Object], [Object], [Object] ],
+162 silly resolved     directories: {},
+162 silly resolved     _resolved: 'https://registry.npmjs.org/hubot/-/hubot-2.13.2.tgz',
+162 silly resolved     readme: 'ERROR: No README data found!' },
+162 silly resolved   { name: 'yo',
+162 silly resolved     version: '1.4.7',
+162 silly resolved     description: 'CLI tool for running Yeoman generators',
+162 silly resolved     license: 'BSD-2-Clause',
+162 silly resolved     bin: { yo: 'lib/cli.js' },
+162 silly resolved     author: { name: 'Yeoman' },
+162 silly resolved     repository: { type: 'git', url: 'https://github.com/yeoman/yo' },
+162 silly resolved     engines: { node: '>=0.10.0', npm: '>=2.8.0' },
+162 silly resolved     scripts:
+162 silly resolved      { test: 'jshint . && mocha test/**/*.js',
+162 silly resolved        postinstall: 'yodoctor',
+162 silly resolved        postupdate: 'yodoctor',
+162 silly resolved        prepublish: 'nsp audit-package' },
+162 silly resolved     files: [ 'lib' ],
+162 silly resolved     keywords:
+162 silly resolved      [ 'cli-app',
+162 silly resolved        'cli',
+162 silly resolved        'bin',
+162 silly resolved        'front-end',
+162 silly resolved        'development',
+162 silly resolved        'dev',
+162 silly resolved        'build',
+162 silly resolved        'web',
+162 silly resolved        'tool',
+162 silly resolved        'scaffold',
+162 silly resolved        'stack',
+162 silly resolved        'yeoman',
+162 silly resolved        'generator',
+162 silly resolved        'generate',
+162 silly resolved        'app',
+162 silly resolved        'boilerplate' ],
+162 silly resolved     dependencies:
+162 silly resolved      { 'array-uniq': '^1.0.2',
+162 silly resolved        async: '^1.0.0',
+162 silly resolved        chalk: '^1.0.0',
+162 silly resolved        configstore: '^1.0.0',
+162 silly resolved        'cross-spawn': '^0.4.0',
+162 silly resolved        figures: '^1.3.5',
+162 silly resolved        findup: '^0.1.5',
+162 silly resolved        fullname: '^1.0.0',
+162 silly resolved        got: '^3.2.0',
+162 silly resolved        'humanize-string': '^1.0.0',
+162 silly resolved        inquirer: '^0.8.0',
+162 silly resolved        insight: '^0.6.0',
+162 silly resolved        lodash: '^3.2.0',
+162 silly resolved        meow: '^3.0.0',
+162 silly resolved        'npm-keyword': '^1.1.1',
+162 silly resolved        opn: '^1.0.0',
+162 silly resolved        'package-json': '^1.1.0',
+162 silly resolved        repeating: '^1.1.2',
+162 silly resolved        'root-check': '^1.0.0',
+162 silly resolved        'sort-on': '^1.0.0',
+162 silly resolved        'string-length': '^1.0.0',
+162 silly resolved        titleize: '^1.0.0',
+162 silly resolved        'update-notifier': '^0.5.0',
+162 silly resolved        'user-home': '^1.1.0',
+162 silly resolved        'yeoman-character': '^1.0.0',
+162 silly resolved        'yeoman-doctor': '^1.0.0',
+162 silly resolved        'yeoman-environment': '^1.0.1',
+162 silly resolved        yosay: '^1.0.0' },
+162 silly resolved     devDependencies:
+162 silly resolved      { jshint: '^2.5.11',
+162 silly resolved        mocha: '^2.1.0',
+162 silly resolved        mockery: '^1.4.0',
+162 silly resolved        nock: '^2.0.1',
+162 silly resolved        nsp: '*',
+162 silly resolved        proxyquire: '^1.0.1',
+162 silly resolved        'registry-url': '^3.0.0',
+162 silly resolved        sinon: '^1.12.1' },
+162 silly resolved     preferGlobal: true,
+162 silly resolved     gitHead: '675d647162f1ecd7f290995078cf8ab42756bf9d',
+162 silly resolved     bugs: { url: 'https://github.com/yeoman/yo/issues' },
+162 silly resolved     homepage: 'https://github.com/yeoman/yo',
+162 silly resolved     _id: 'yo@1.4.7',
+162 silly resolved     _shasum: '7eecb354f6f4df2dafbc2da53d30f7f7fafcb450',
+162 silly resolved     _from: 'yo@',
+162 silly resolved     _npmVersion: '2.10.1',
+162 silly resolved     _nodeVersion: '0.12.4',
+162 silly resolved     _npmUser: { name: 'sindresorhus', email: 'sindresorhus@gmail.com' },
+162 silly resolved     dist:
+162 silly resolved      { shasum: '7eecb354f6f4df2dafbc2da53d30f7f7fafcb450',
+162 silly resolved        tarball: 'http://registry.npmjs.org/yo/-/yo-1.4.7.tgz' },
+162 silly resolved     maintainers: [ [Object], [Object], [Object], [Object], [Object], [Object] ],
+162 silly resolved     directories: {},
+162 silly resolved     _resolved: 'https://registry.npmjs.org/yo/-/yo-1.4.7.tgz' } ]
+163 info install generator-hubot@0.3.1 into /usr/local/lib
+164 info install coffee-script@1.9.3 into /usr/local/lib
+165 info install hubot@2.13.2 into /usr/local/lib
+166 info install yo@1.4.7 into /usr/local/lib
+167 info installOne generator-hubot@0.3.1
+168 info installOne coffee-script@1.9.3
+169 info installOne hubot@2.13.2
+170 info installOne yo@1.4.7
+171 warn engine yo@1.4.7: wanted: {"node":">=0.10.0","npm":">=2.8.0"} (current: {"node":"0.10.39","npm":"1.4.28"})
+172 verbose lib/node_modules/hubot unbuild
+173 verbose tar unpack /Users/drew/.npm/hubot/2.13.2/package.tgz
+174 silly lockFile 88f12b28-usr-local-lib-node-modules-hubot tar:///usr/local/lib/node_modules/hubot
+175 verbose lock tar:///usr/local/lib/node_modules/hubot /Users/drew/.npm/88f12b28-usr-local-lib-node-modules-hubot.lock
+176 silly lockFile c5400886-rew-npm-hubot-2-13-2-package-tgz tar:///Users/drew/.npm/hubot/2.13.2/package.tgz
+177 verbose lock tar:///Users/drew/.npm/hubot/2.13.2/package.tgz /Users/drew/.npm/c5400886-rew-npm-hubot-2-13-2-package-tgz.lock
+178 verbose lib/node_modules/generator-hubot unbuild
+179 verbose lib/node_modules/coffee-script unbuild
+180 verbose lib/node_modules/yo unbuild
+181 silly gunzTarPerm modes [ '755', '644' ]
+182 verbose tar unpack /Users/drew/.npm/generator-hubot/0.3.1/package.tgz
+183 silly lockFile 6903d81a-lib-node-modules-generator-hubot tar:///usr/local/lib/node_modules/generator-hubot
+184 verbose lock tar:///usr/local/lib/node_modules/generator-hubot /Users/drew/.npm/6903d81a-lib-node-modules-generator-hubot.lock
+185 silly lockFile 94149fa1-enerator-hubot-0-3-1-package-tgz tar:///Users/drew/.npm/generator-hubot/0.3.1/package.tgz
+186 verbose lock tar:///Users/drew/.npm/generator-hubot/0.3.1/package.tgz /Users/drew/.npm/94149fa1-enerator-hubot-0-3-1-package-tgz.lock
+187 verbose tar unpack /Users/drew/.npm/coffee-script/1.9.3/package.tgz
+188 silly lockFile 865d9b08-l-lib-node-modules-coffee-script tar:///usr/local/lib/node_modules/coffee-script
+189 verbose lock tar:///usr/local/lib/node_modules/coffee-script /Users/drew/.npm/865d9b08-l-lib-node-modules-coffee-script.lock
+190 silly lockFile 27f8deaa--coffee-script-1-9-3-package-tgz tar:///Users/drew/.npm/coffee-script/1.9.3/package.tgz
+191 verbose lock tar:///Users/drew/.npm/coffee-script/1.9.3/package.tgz /Users/drew/.npm/27f8deaa--coffee-script-1-9-3-package-tgz.lock
+192 verbose tar unpack /Users/drew/.npm/yo/1.4.7/package.tgz
+193 silly lockFile 7d7c7bef-ar-usr-local-lib-node-modules-yo tar:///usr/local/lib/node_modules/yo
+194 verbose lock tar:///usr/local/lib/node_modules/yo /Users/drew/.npm/7d7c7bef-ar-usr-local-lib-node-modules-yo.lock
+195 silly lockFile 54ee74cd-rs-drew-npm-yo-1-4-7-package-tgz tar:///Users/drew/.npm/yo/1.4.7/package.tgz
+196 verbose lock tar:///Users/drew/.npm/yo/1.4.7/package.tgz /Users/drew/.npm/54ee74cd-rs-drew-npm-yo-1-4-7-package-tgz.lock
+197 silly gunzTarPerm modes [ '755', '644' ]
+198 silly gunzTarPerm modes [ '755', '644' ]
+199 silly gunzTarPerm modes [ '755', '644' ]
+200 error Error: EACCES, mkdir '/usr/local/lib/node_modules/hubot'
+200 error  { [Error: EACCES, mkdir '/usr/local/lib/node_modules/hubot']
+200 error   errno: 3,
+200 error   code: 'EACCES',
+200 error   path: '/usr/local/lib/node_modules/hubot',
+200 error   fstream_type: 'Directory',
+200 error   fstream_path: '/usr/local/lib/node_modules/hubot',
+200 error   fstream_class: 'DirWriter',
+200 error   fstream_stack:
+200 error    [ '/usr/local/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23',
+200 error      '/usr/local/lib/node_modules/npm/node_modules/mkdirp/index.js:46:53',
+200 error      'Object.oncomplete (fs.js:108:15)' ] }
+201 error Please try running this command again as root/Administrator.
+202 error System Darwin 14.4.0
+203 error command "/usr/local/bin/node" "/usr/local/bin/npm" "install" "-g" "hubot" "coffee-script" "yo" "generator-hubot"
+204 error cwd /Users/drew/projects/fuzzybot
+205 error node -v v0.10.39
+206 error npm -v 1.4.28
+207 error path /usr/local/lib/node_modules/hubot
+208 error fstream_path /usr/local/lib/node_modules/hubot
+209 error fstream_type Directory
+210 error fstream_class DirWriter
+211 error code EACCES
+212 error errno 3
+213 error stack Error: EACCES, mkdir '/usr/local/lib/node_modules/hubot'
+214 error fstream_stack /usr/local/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23
+214 error fstream_stack /usr/local/lib/node_modules/npm/node_modules/mkdirp/index.js:46:53
+214 error fstream_stack Object.oncomplete (fs.js:108:15)
+215 verbose exit [ 3, true ]
