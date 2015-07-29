@@ -2,8 +2,8 @@
 #   A way to interact with the Google Images API.
 #
 # Commands:
-#   hubot image me <query> - The Original. Queries Google Images for <query> and returns a random top result.
-#   hubot animate me <query> - The same thing as `image me`, except adds a few parameters to try to return an animated GIF instead.
+#   hubot image <query> - The Original. Queries Google Images for <query> and returns a random top result.
+#   hubot animate <query> - The same thing as `image me`, except adds a few parameters to try to return an animated GIF instead.
 
 module.exports = (robot) ->
   robot.respond /(image|img)( me)? (.*)/i, (msg) ->
