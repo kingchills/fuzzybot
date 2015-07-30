@@ -7,18 +7,19 @@
   "dependencies": {
     "hubot": "^2.13.2",
     "hubot-diagnostics": "0.0.1",
+    "hubot-giphy-gifme": "0.1.4",
     "hubot-google-images": "^0.1.5",
     "hubot-google-translate": "^0.2.0",
     "hubot-help": "^0.1.1",
     "hubot-heroku-keepalive": "0.0.4",
     "hubot-maps": "0.0.2",
+    "hubot-plusplus": "^1.1.5",
     "hubot-pugme": "^0.1.0",
     "hubot-redis-brain": "0.0.3",
     "hubot-rules": "^0.1.1",
     "hubot-scripts": "^2.16.1",
     "hubot-shipit": "^0.2.0",
-    "hubot-slack": "^3.3.0",
-    "hubot-giphy-gifme": "0.1.4"
+    "hubot-slack": "^3.3.0"
   },
   "engines": {
     "node": "0.10.x"
